@@ -1,7 +1,7 @@
-Flask==2.3.2
-openai==0.27.6
-python-dotenv==1.0.0
-fpdf==1.7.2
-requests==2.31.0
-duckduckgo_search==2.8.5
-beautifulsoup4==4.12.2
+Flask
+fpdf
+requests
+beautifulsoup4
+openai
+python-dotenv
+duckduckgo_search==0.9
