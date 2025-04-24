@@ -4,4 +4,4 @@ requests
 beautifulsoup4
 openai
 python-dotenv
-duckduckgo_search==0.9
+duckduckgo_search
