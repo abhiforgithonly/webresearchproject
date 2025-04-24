@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Research Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Research Agent</h1>
+        <input type="text" id="queryInput" placeholder="Enter your research query">
+        <button onclick="runSearch()">Search</button>
+        <button onclick="toggleTheme()">🌓 Toggle Dark Mode</button>
+        <div id="loader" class="spinner hidden"></div>
+        <div id="results"></div>
+        <div id="actions" class="hidden">
+            <button onclick="exportData('csv')">Export to CSV</button>
+            <button onclick="exportData('pdf')">Export to PDF</button>
+            <button onclick="emailResults()">Send via Email</button>
+        </div>
+    </div>
+
+    <script>
+        let resultData = [];
+
+        function runSearch() {
+            const query = document.getElementById("queryInput").value;
+            if (!query) return alert("Please enter a query.");
+            document.getElementById("loader").classList.remove("hidden");
+            document.getElementById("results").innerHTML = "";
+            fetch("/search", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ query })
+            })
+            .then(res => res.json())
+            .then(data => {
+                resultData = data;
+                const container = document.getElementById("results");
+                if (!data.length) container.innerHTML = "<p>No results found.</p>";
+                else {
+                    data.forEach(item => {
+                        container.innerHTML += `
+                            <div class="card">
+                                <h3>${item.title}</h3>
+                                <a href="${item.link}" target="_blank">${item.link}</a>
+                                <p>${item.summary}</p>
+                            </div>`;
+                    });
+                    document.getElementById("actions").classList.remove("hidden");
+                }
+            })
+            .finally(() => document.getElementById("loader").classList.add("hidden"));
+        }
+
+        function exportData(type) {
+            fetch(`/export/${type}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ results: resultData })
+            })
+            .then(response => response.blob())
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = `research_summary.${type}`;
+                a.click();
+            });
+        }
+
+        function emailResults() {
+            fetch("/email", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ results: resultData })
+            })
+            .then(res => res.json())
+            .then(data => alert(data.status));
+        }
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            html.dataset.theme = html.dataset.theme === "light" ? "dark" : "light";
+        }
+    </script>
+</body>
+</html>
