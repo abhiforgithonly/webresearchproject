@@ -46,6 +46,16 @@ OPENAI_API_KEY=your_openai_api_key
 # 5. Run the Flask app
 python main.py
 
+# Tests and Outputs
+
+This folder contains test artifacts that demonstrate the application's functionality.
+
+- `test_agentlog.txt` — Logs the agent’s decisions and steps during a real test run.
+- `test_research_report.txt` — Actual research result exported from a live query using the app.
+
+These files serve as evidence of the agent handling real queries and exporting results successfully.
+
+
 # 💬 Credits
 # Developed by Abhijeet Suryavanshi
 # Special thanks to OpenAI for powerful LLM APIs
