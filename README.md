@@ -50,7 +50,7 @@ python main.py
 
 This folder contains test artifacts that demonstrate the application's functionality.
 
-- `test_agentlog.txt` — Logs the agent’s decisions and steps during a real test run.
+- `agent_log.log` — Logs the agent’s decisions and steps during a real test run.
 - `test_research_report.txt` — Actual research result exported from a live query using the app.
 
 These files serve as evidence of the agent handling real queries and exporting results successfully.
