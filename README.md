@@ -62,3 +62,7 @@ These files serve as evidence of the agent handling real queries and exporting r
 
 # 📜 License
 # This project is licensed under the MIT License. Feel free to fork and build on it!
+
+## Update
+
+Documentation has been added to explain usage and setup in more detail.
