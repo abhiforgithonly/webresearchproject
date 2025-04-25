@@ -1,0 +1,43 @@
+📘 Research Report - ai in medicine | 20250424_180141
+
+[1] AI in Medicine | NEJM
+🔗 https://www.nejm.org/ai-in-medicine
+📝 Summary:
+It seems that the provided content does not contain relevant information regarding AI in medicine, as it appears to be a prompt requesting the enabling of JavaScript and cookies. If you have specific information or a document about AI in medicine that you would like summarized, please provide that content, and I'd be happy to help!
+--------------------------------------------------------------------------------
+[2] AI in Healthcare: Benefits and Examples - Cleveland Clinic Health ...
+🔗 https://health.clevelandclinic.org/ai-in-healthcare
+📝 Summary:
+AI is increasingly being integrated into healthcare, transforming various aspects of patient care and medical research. This technology, projected to become a $188 billion industry by 2030, is utilized in chatbots, diagnostic testing, and treatment development, enhancing efficiency and access to care. AI and machine learning are capable of analyzing large datasets to improve disease research and treatment options. For example, AI can read medical imaging more accurately than humans, demonstrating its potential in diagnostics. 
+
+Organizations like the Cleveland Clinic are leading efforts to harness AI's capabilities responsibly, such as through the AI Alliance, which promotes safe AI use in medicine. Partnerships like the Discovery Accelerator aim to enhance biomedical research by leveraging vast amounts of data to understand human genetics and disease better. Overall, AI is revolutionizing how healthcare is delivered, from initial diagnosis through treatment and follow-up care.
+--------------------------------------------------------------------------------
+[3] Artificial Intelligence in Medicine | Journal - ScienceDirect
+🔗 https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine
+📝 Summary:
+The provided content does not contain specific information regarding the use of AI in medicine. It primarily discusses technical issues related to accessing content on ScienceDirect and includes copyright information. For insights into AI in medicine, further detailed sources would be necessary.
+--------------------------------------------------------------------------------
+[4] AI in science and medicine: A deep dive from the AI Index Report
+🔗 https://med.stanford.edu/news/all-news/2025/04/ai-index-report-science-medicine.html
+📝 Summary:
+AI is making significant strides in medicine, as highlighted in the latest AI Index Report by the Institute for Human-Centered Artificial Intelligence. Key developments include:
+
+1. **Advancements in Patient Care**: AI is transforming clinical practices by automating tasks, such as disease detection and clinical documentation, which enhances efficiency and allows healthcare professionals to focus more on patient care.
+
+2. **Foundation Models**: These statistical models leverage vast datasets to provide insights and predictions in biomedical research, moving beyond selective data usage to a comprehensive analysis that accelerates scientific progress.
+
+3. **Impact on Clinical Practice**: The integration of large language models (LLMs) into clinical workflows is particularly promising. These models can assist in documentation, summarize surgical procedures, and improve overall communication within healthcare settings.
+
+4. **Recognition of AI's Contribution**: The use of AI in scientific research is validated by its role in contributing to two Nobel prizes, underscoring its significance in advancing medical knowledge.
+
+Overall, AI is seen as a revolutionary force in medicine, enhancing research capabilities, improving patient care, and reshaping clinical practices, with a focus on ethical considerations and future growth potential.
+--------------------------------------------------------------------------------
+[5] Artificial intelligence in healthcare: transforming the practice of ...
+🔗 https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156/
+📝 Summary:
+Artificial intelligence (AI) is poised to transform the practice of medicine and healthcare delivery significantly. Recent advances in AI applications in healthcare are aimed at addressing critical challenges faced by healthcare systems worldwide, such as improving population health, enhancing patient and caregiver experiences, and reducing costs. Particularly in the context of an aging population and an increasing burden of chronic diseases, AI can help innovate and reshape healthcare models.
+
+The COVID-19 pandemic has underscored the need for effective and scalable healthcare solutions, revealing workforce shortages and access inequities. AI can leverage diverse data sources, including genomics and clinical data, to provide insights that improve patient care. As healthcare faces a projected shortage of healthcare professionals by 2030, AI stands out as a potential solution to bridge the gap between healthcare supply and demand.
+
+The article outlines a roadmap for developing reliable and safe AI systems in healthcare, emphasizing the importance of integrating technological advancements with healthcare needs to create AI-augmented healthcare systems.
+--------------------------------------------------------------------------------
