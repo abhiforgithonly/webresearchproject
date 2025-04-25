@@ -1,0 +1,33 @@
+2025-04-24 17:49:23,851 | INFO | [Session: f7ca0129] Starting research agent for: 'AI in Sports'
+2025-04-24 17:49:24,895 | INFO | response: https://lite.duckduckgo.com/lite/ 200
+2025-04-24 17:49:24,904 | INFO | [1] Processing: How AI Is Revolutionizing Professional Sports - Forbes
+2025-04-24 17:49:25,222 | INFO | [2] Processing: From Stadiums To Sidelines: How AI Is Reinventing The Future Of Sports
+2025-04-24 17:49:25,531 | INFO | [3] Processing: How AI is Transforming the Sports Industry in 2024? - Imaginovation
+2025-04-24 17:49:26,408 | INFO | [4] Processing: AI in Sports: Applications and Real-World Examples - DataCamp
+2025-04-24 17:49:26,551 | INFO | [5] Processing: How AI In Sports Is Changing The Game | Jobs In Sports
+2025-04-24 17:49:28,506 | INFO | Report saved to: research_report_20250424_174928.txt
+2025-04-24 17:58:44,924 | INFO | [Session: 7beced3e] Starting research agent for: 'AI In Sports'
+2025-04-24 17:58:45,914 | INFO | response: https://lite.duckduckgo.com/lite/ 200
+2025-04-24 17:58:45,918 | INFO | [1] Processing: How AI Is Revolutionizing Professional Sports - Forbes
+2025-04-24 17:58:46,218 | INFO | [2] Processing: From Stadiums To Sidelines: How AI Is Reinventing The Future Of Sports
+2025-04-24 17:58:46,517 | INFO | [3] Processing: How AI is Transforming the Sports Industry in 2024? - Imaginovation
+2025-04-24 17:58:46,704 | INFO | [4] Processing: Can AI Score Big In The Future Of Sports? Five Key Trends ... - Forbes
+2025-04-24 17:58:48,172 | INFO | [5] Processing: How AI In Sports Is Changing The Game | Jobs In Sports
+2025-04-24 17:58:49,463 | INFO | Report saved to: research_report_20250424_175849.txt
+2025-04-24 18:00:37,529 | INFO | [Session: c3897087] Starting research agent for: 'ai in medicine'
+2025-04-24 18:00:38,464 | INFO | response: https://html.duckduckgo.com/html 200
+2025-04-24 18:00:38,481 | INFO | [1] Processing: AI in Medicine | NEJM
+2025-04-24 18:00:42,125 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 18:00:42,154 | INFO | [2] Processing: AI in Healthcare: Benefits and Examples - Cleveland Clinic Health ...
+2025-04-24 18:00:45,937 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 18:00:45,940 | INFO | [3] Processing: Artificial Intelligence in Medicine | Journal - ScienceDirect
+2025-04-24 18:00:47,690 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 18:00:47,693 | INFO | [4] Processing: AI in science and medicine: A deep dive from the AI Index Report
+2025-04-24 18:00:49,670 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-24 18:00:49,671 | INFO | Retrying request to /chat/completions in 20.000000 seconds
+2025-04-24 18:01:15,405 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 18:01:15,407 | INFO | [5] Processing: Artificial intelligence in healthcare: transforming the practice of ...
+2025-04-24 18:01:16,594 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-04-24 18:01:16,595 | INFO | Retrying request to /chat/completions in 20.000000 seconds
+2025-04-24 18:01:41,026 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 18:01:41,037 | INFO | Report saved to: research_report_20250424_180141.txt
